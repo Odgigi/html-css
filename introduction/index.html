@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Introduction</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Je suis un titre de niveau 1</h1>
+        <h2>Je suis un titre de niveau 2</h2>
+        <h3>Je suis un titre de niveau 3</h3>
+        <h4>Je suis un titre de niveau 4</h4>
+        <h5>Je suis un titre de niveau 5</h5>
+        <h6>Je suis un titre de niveau 6</h6>
+    </div><!--"div" est la balise bloc générique-->
+    <hr>
+    <div>
+        <h2 id="paragraphe">Les paragraphes</h2>
+            <p>Pour créer des <strong>paragraphes</strong>, nous allons utiliser la balise "p", qui renvoie automatiquement à la ligne. C'est le principe des éléments bloc.</p>
+            <p>
+            De même que la balise "br", qui peut s'écrire avec ou sans slash.
+            La balise "strong" permet d'améliorer le référencement, elle signale aux robot Google les éléments importants de la paragraphes.
+            La balise "strong" ne génère pas de retour à la ligne, car c'est une balise <strong>
+            inline</strong>.<br>
+            La balise générique des éléments inline est <span>"span"</span> qui ne fait rien par elle-même.
+            De même la balise <em>"em"</em> sert à dire que cet élément est important.
+            </p>
+    </div>
+    <hr>
+    <div>
+        <h2>Les listes</h2>
+        <h3>Les personnages des Simpson</h3>
+        <!--Listes non ordonnées (ul, unordered list)-->
+        <ul>
+            <li>Homer</li>
+            <li>Marge</li>
+            <li>Bart</li>
+            <li>Lisa</li>
+        </ul>
+        <h3>Mes films préférés</h3>
+        <!--Liste ordonnée (ol, ordered list)-->
+        <ol>
+            <li>Cookie's Fortune</li>
+            <li>Sur la route de madison</li>
+        </ol>
+    </div>
+
+    <hr><!---Pause thématique-->
+
+    <div>
+        <h2>Mes images</h2>
+        <img src="img/pexels-mark-neal-3413359.jpg" alt="paysage de montagne vu d'un balcon" title="Photo de Mark Neal: https://www.pexels.com/fr-fr/photo/chaine-de-montagnes-de-neige-sous-les-nuages-nimbus-3413359/">
+        <img src="img/pexels-laura-meinhardt-14668166.jpg" alt="paquebot en mer vu d'un hublot" title="Photo de Laura Meinhardt: https://www.pexels.com/fr-fr/photo/mer-aube-paysage-soleil-couchant-14668166/">
+    </div>
+
+    <div>
+        <h2>Les liens</h2>
+        <div>
+            <a href="https://www.doranco.fr/acces-doranco-bagnolet" target="_blank">Doranco</a>
+        </div>
+        <div>
+            <a href="views/contact.html">Contact</a>
+        </div>
+        <div>
+            <a href="mailto:admin@gmail.com">admin@gmail.com</a>
+        </div>
+            <a href="#paragraphe">Les paragraphes</a>
+        </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.discover {
+    width: 90%;
+    min-height: 400px;
+    margin: auto;
+    text-align: center;
+    color:#fff;
+    background-color: blue;
+    background-image: url(../img/pexels-anthony-celenie-4545786.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.discover a {
+    color: #fff;
+}
+
+.special {
+    background-color:aquamarine;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), transparent), url(../img/pexels-layla-yehia-6042966.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-image: linear-gradient(blue, red); */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:#fff;
+    line-height: 270px;
+    vertical-align: middle;
+}
+.img-html {
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+.img-html img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Par défaut le point de référence est centré (contrairement aux background-img) */
+    /* object-position: top; Il faut donc lui spécifier si on veut que le point de référence soit en haut à gauche */
+}
+.img-exo {
+    width: 200px;
+    height: 300px;
+    object-fit:cover;
+
+}

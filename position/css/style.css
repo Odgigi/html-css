@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+    background-color: aqua;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+}
+
+.static {
+    position: static; /* par défaut tous les éléments html ont la valeur static */
+}
+.relative {
+    position: relative; /* to, left | right | bottom */
+    left: 50px;
+    top: 50px;
+}
+.fixed {
+    background-color: pink;
+    position:fixed;
+    bottom: 10px;
+    right: 0;
+    z-index: 10;
+}
+.fixed-2 {
+    background-color: red;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.absolute {
+    background-color: rgb(66, 66, 221);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.parent {
+    background-color: rgb(121, 121, 7) ;
+    position:relative;
+}

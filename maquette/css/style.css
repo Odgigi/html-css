@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 2400px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(63, 5, 5);
+}
+
+header {
+    background-color: #0a2b19;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 65px;
+    padding: 0 80px;
+}
+header a {
+    font-family: 'Nunito';
+    color: #fff;
+}
+
+.link-up {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 63, 63);
+    color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    scroll-behavior: smooth;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.logo {
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 35px;
+}
+
+header nav {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    background-color: aqua;
+    /* width: 100% par défaut élément bloc width: 100% */
+    min-height: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url(../img/paris-1854130.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.hero h1 {
+    font-size: 40px;
+    text-transform: uppercase;   
+}
+.hero p {
+    font-size: 20px;
+    font-style: italic;
+}
+.hero a {
+    color: #fff;
+    background-color: #0a2b19;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px 80px;
+        gap: 20px;
+    }
+    nav {
+        /* background-color: red; */
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 520px) {
+    header {
+        /* background-color: red; */
+    }
+    header nav {
+        /* background-color: red; */
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
+

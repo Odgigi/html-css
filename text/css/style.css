@@ -1,0 +1,48 @@
+body {
+    /* Police de caractères */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Taille de la police */
+    font-size: 20px;
+    /* Epaisseur de la police */
+    font-weight:normal;
+    /* lighter|normal|bold */
+    font-style: normal;
+    /* oblique|normal|italic */
+    text-align: justify;
+    /* center|left|right|justify */
+}
+
+p {
+    /* Majuscule, minuscule */
+    text-transform: uppercase;
+    /* lowercase|none|capitalize (seules premières lettres des mots)|uppercase */
+}
+
+a {
+    /* Style sur le texte (souligné, barré...) */
+    text-decoration:none;
+    /* underline (par défaut)|none */
+    color: #cc2121;
+}
+
+a:visited {
+    /* Si le lien a déjà été visité */
+    color: orange;
+    }
+
+a:hover {
+    /* Pseudo-class :hover signifie au survol */
+    color: red;
+    font-size: 22px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+
+

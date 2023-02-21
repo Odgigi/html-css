@@ -1,0 +1,40 @@
+/* On peut sélectionner les noms des balise html*/
+/* Conséquences: tous les éléments de ce type seront modifiés*/
+/* On peut sélectionner plusieurs éléments en même temps en les séparant par une virgule*/
+h1, .subtitle {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+p {
+    color: orange;
+}
+
+body {
+    color: red;
+}
+/* On peut sélectionner des balises spécifiques grâce à leur class en utilisant un . */
+.odile {
+    color: orange;
+/* On peut sélectionner des balise spécifique grâce à sa classe en utilisant un # 
+Conséquence: l'élément qui a cet id sera modifié
+Mais on préfère laisser les ID au Javascript sauf exception*/
+}
+#eric {
+    color: yellow;
+}
+.description {
+    color: pink;
+}
+
+.pink {
+    color: pink;
+}
+/* On peut sélectionner des balises pécifiques par éélecteur descendant: chemin
+Ex. le paragraphe qui se trouve dans une div qui a la class description */
+.description p {
+    color: pink;
+}

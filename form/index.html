@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Form</title>
+</head>
+<body>
+    <div>
+        <h1>Les formulaires</h1>
+        <form>
+            <div>
+                <label for="name">Nom</label>
+                <input type="text" id="name">
+                </div>
+                <div>
+                <label for="pwd">Mot de passe</label>
+                <input type="password" id="pwd">
+            </div>
+            <div>
+                <label for="black">Couleur</label>
+                <input type="color" id="black">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="" id="message"></textarea>
+            </div>
+            <div>
+                <label for="weekday">Jour de la semaine</label>
+                <select id="weekday">
+                    <option value="Monday">lundi</option>
+                    <option value="Tuesday">mardi</option>
+                    <option value="Wednesday">mercredi</option>
+                </select>
+            </div>
+            <div>
+                <span>Vos plats préférés :</span>
+                <label for="pizza">pizza</label>
+                <input type="checkbox" id="pizza" value="pizza">
+                <label for="burger">hamburger</label>
+                <input type="checkbox" id="burger" value="burger">
+            </div>
+            <div>
+                <span>Etes-vous d'accord ?</span>
+                <label for="yes answer">oui</label>
+                <input type="radio" id="yes answer" value="yes" name="agree">
+                <label for="no answer">non</label>
+                <input type="radio" id="no answer" value="no" name="agree">
+            </div>
+            <div>
+                <input type="submit" value="envoyer">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
