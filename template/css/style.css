@@ -1,23 +1,55 @@
+/* On importe une/des  Google fonts (ici Roboto et Lato ou Unbounded */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Unbounded:wght@300;400&display=swap');
 
-* {
+* { /* On réinitialise à 0 les valeurs par défaut des navigateurs pour {padding} et {margin} */
     margin: 0;
     padding: 0;
+    /* { box-sizing: } Fixe la taille de nos element block en ajoutant les bordures et padding vers l'interieur*/
     box-sizing: border-box;
 }
 
+/* Permet d'avoir un scroll doux sur la page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Qq propriétés générales pour toute la page */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #333;
 }
 
 h1 {
-    font-family: 'Unbounded', cursive;
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.blocktext {
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    text-align: justify;
 }
 
 /* Media Queries */
-/* 768 px écran de tablette */
+/* 768px écran de tablette */
 @media only screen and (max-width: 768px) {
-
 }
+
+/* 360px ecran de smartphone */
+@media only screen and (max-width: 360px) {
+}
+
+/* Common screen sizes :
+    Mobile: 360
+    Mobile: 576
+    Tablet: 768
+    Laptop: 920
+    Desktop: 1200
+*/
 

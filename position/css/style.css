@@ -20,6 +20,7 @@ body {
     position: static; /* par défaut tous les éléments html ont la valeur static */
 }
 .relative {
+    background-color: rgb(100, 21, 21);
     position: relative; /* to, left | right | bottom */
     left: 50px;
     top: 50px;

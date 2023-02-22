@@ -15,7 +15,12 @@
 <body>
     <div>
         <h1>Les tableaux</h1>
+        <!-- Un tableau se compose d'une balise <table></table> -->
+        <!-- Pour chaque ligne on ajoute la balise <tr></tr> -->
+        <!-- Pour chaque cellule on ajoute la balise <td></td> -->
+        <!-- Les balises <td></td> peuvent être remplacées par <th></th> pour les cellules titres -->
         <table>
+            <!-- Pour lier un titre à un tableau, j'utilise la balise <caption></caption> -->
             <caption>Un super tableau !</caption>
             <thead>
                 <tr>
@@ -24,6 +29,7 @@
                     <th>TTC</td>
                 </tr>
             </thead>
+            <!-- Pour éviter d'avoir à se reporter trop loin parfois on fait apparaiître le footer du tableau après le head-->
             <tfoot>
                 <tr>
                     <th>HT</td>
@@ -34,11 +40,15 @@
             <tbody>
                 <tr>
                     <td>200</td>
-                    <td>20</td>
+                    <td>20%</td>
                     <td>240</td>
                 </tr>
+                <tr>
+                    <td>100</td>
+                    <td>10%</td>
+                    <td>110</td>
+                </tr>
             </tbody>
-            
         </table>
     </div>
 </body>

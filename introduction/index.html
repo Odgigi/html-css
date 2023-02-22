@@ -23,15 +23,16 @@
     <hr>
     <div>
         <h2 id="paragraphe">Les paragraphes</h2>
-            <p>Pour créer des <strong>paragraphes</strong>, nous allons utiliser la balise "p", qui renvoie automatiquement à la ligne. C'est le principe des éléments bloc.</p>
+            <p>Pour créer des <strong>paragraphes</strong>, nous allons utiliser la balise "p", qui renvoie automatiquement à la ligne. De même que la balise "br", qui peut s'écrire avec ou sans slash.<br>
+            C'est le principe des éléments bloc.</p>
             <p>
-            De même que la balise "br", qui peut s'écrire avec ou sans slash.
-            La balise "strong" permet d'améliorer le référencement, elle signale aux robot Google les éléments importants de la paragraphes.
-            La balise "strong" ne génère pas de retour à la ligne, car c'est une balise <strong>
+            La balise "strong" permet d'améliorer le référencement, car elle signale aux robots Google les éléments importants dans les paragraphes.
+            Elle ne génère pas de retour à la ligne, car c'est une balise <strong>
             inline</strong>.<br>
-            La balise générique des éléments inline est <span>"span"</span> qui ne fait rien par elle-même.
-            De même la balise <em>"em"</em> sert à dire que cet élément est important.
+            La balise générique des éléments inline est <span>"span"</span> qui ne fait rien en elle-même. Elle peut être considérée comme une balise <span>"p"</span> inline.
+            De même la balise <em>"em"</em> sert à souligner un élément en le mettant en italique.
             </p>
+            <p>Le "hr" marque quant à lui une pause thématique en affichant un trait de séparation entre différentes sections.</p>
     </div>
     <hr>
     <div>
@@ -47,8 +48,10 @@
         <h3>Mes films préférés</h3>
         <!--Liste ordonnée (ol, ordered list)-->
         <ol>
-            <li>Cookie's Fortune</li>
-            <li>Sur la route de madison</li>
+            <!-- le li étant un élément block l'image, qui elle est un élément inline, s'affiche en dessous-->
+            <li>Cookie's Fortune de Robert Altman</li>
+            <img src="img/cookies-fortune.jpg" alt="Affiche dessinée du film Cookies's Fortune de Robert Altman">
+            <li>Sur la route de Madison</li>
         </ol>
     </div>
 
@@ -62,16 +65,20 @@
 
     <div>
         <h2>Les liens</h2>
-        <div>
-            <a href="https://www.doranco.fr/acces-doranco-bagnolet" target="_blank">Doranco</a>
-        </div>
-        <div>
-            <a href="views/contact.html">Contact</a>
-        </div>
-        <div>
-            <a href="mailto:admin@gmail.com">admin@gmail.com</a>
-        </div>
-            <a href="#paragraphe">Les paragraphes</a>
-        </div>
+    <div>
+        <!-- lien vers un site externe -->
+        <a href="https://www.doranco.fr/acces-doranco-bagnolet" target="_blank">Doranco</a>
+    </div>
+    <div>
+        <!-- lien vers une autre page de notre site (n'ouvre pas de nouvel onglet) -->
+        <a href="views/contact.html">Contact</a>
+    </div>
+    <div>
+        <!-- lien pour envoyer un mail -->
+        <a href="mailto:admin@gmail.com">admin@gmail.com</a>
+    </div>
+        <!-- lien interne qui ouvre un nouvel onglet -->
+        <a href="#paragraphe">Les paragraphes</a>
+    </div>
 </body>
 </html>

@@ -1,5 +1,8 @@
+/* CSS Cascading Style Sheet */
+/* Pensez au style en cascade */
+
 /* On peut sélectionner les noms des balise html*/
-/* Conséquences: tous les éléments de ce type seront modifiés*/
+/* Conséquence: tous les éléments de ce type seront modifiés*/
 /* On peut sélectionner plusieurs éléments en même temps en les séparant par une virgule*/
 h1, .subtitle {
     color: red;
@@ -16,24 +19,26 @@ p {
 body {
     color: red;
 }
-/* On peut sélectionner des balises spécifiques grâce à leur class en utilisant un . */
+/* On peut sélectionner des balises spécifiques grâce à leur class en utilisant un . 
+Conséquence: l'élément qui a cet id sera modifié */
 .odile {
     color: orange;
-/* On peut sélectionner des balise spécifique grâce à sa classe en utilisant un # 
-Conséquence: l'élément qui a cet id sera modifié
-Mais on préfère laisser les ID au Javascript sauf exception*/
 }
+
+/* On peut sélectionner des balises spécifiques grâce à leur id en utilisant un # 
+Mais on préfère laisser les ID au Javascript sauf exception */
 #eric {
     color: yellow;
 }
+
 .description {
     color: pink;
 }
 
 .pink {
-    color: pink;
+    color: blue;
 }
-/* On peut sélectionner des balises pécifiques par éélecteur descendant: chemin
+/* On peut sélectionner des balises pécifiques par sélecteur descendant = chemin
 Ex. le paragraphe qui se trouve dans une div qui a la class description */
 .description p {
     color: pink;

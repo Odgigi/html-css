@@ -5,37 +5,40 @@
 }
 
 body {
-    /* background-color: aquamarine; */
     font-family:Arial, Helvetica, sans-serif;
-    font-size:17px;
+    font-size: 16px;
     color: #333;
     margin: auto;
     padding: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
 .about-us {
     border: 1px solid #333;
     width: 90%;
-    max-width: 1080px;
+    max-width: 1200px;
     min-height: 300px;
     margin: 50px auto;
     padding: 20px;
-    text-align:center;
-}
-
-/* div {
-    text-align:center;
-    padding: 0px 15px;
-} */
-.about-us h2 {
-    margin-bottom: 30px;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
+.about-us h1 {
+    font-size: 28px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
 .about-us a {
-    text-decoration: none;
     color: rgb(217, 76, 76);
 }
 
@@ -43,6 +46,4 @@ body {
     color: red;
 }
 
-p {
-    margin-bottom: 20px;
-}
+

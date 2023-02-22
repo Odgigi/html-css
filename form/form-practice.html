@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML - Practice 2</title>
+    <title>HTML - Form Practice</title>
     <style>
         td{
             border: 1px solid black;
@@ -16,81 +16,82 @@
         <caption>Nouvel Exercice</caption>
             <form>
                 <table>
-                        <tr>
-                            <td>
-                                <label for="pseudo">Pseudo</label>
-                            </td>
-                            <td>
-                                <input type="text" id="pseudo" autofocus placeholder="Choisissez un pseudo">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="pwd">Password</label>
-                            </td>
-                            <td>
-                                <input type="password" id="pwd" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="email">Email</label>
-                            </td>
-                            <td>
-                                <input type="email" id="email" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="vehicule">Véhicule</label>
-                            </td>
-                            <td>
-                                <select id="vehicule">
-                                    <option value="voiture">Voiture</option>
-                                    <option value="motocycle">Motocycle</option>
-                                    <option value="vélo">Vélo</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="message">Dites-nous en plus sur vous</label>
-                            </td>
-                            <td>
-                                <textarea name="message" id="message" placeholder="Nbre de caractères maximum"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Sexe</td>
-                            <td>
-                                <label for="femme">femme</label>
-                                <input type="radio" id="femme" value="woman" name="gender">
-                                <label for="homme">homme</label>
-                                <input type="radio" id="homme" value="man" name="gender">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Sports pratiqués</td>
-                            <td><label for="danse">Danse</label>
-                                <input type="checkbox" id="danse">
-                                <label for="fitness">Fitness</label>
-                                <input type="checkbox" id="fitness">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="file">Télécharger</label>
-                            </td>
-                            <td>
-                                <input type="file" id="file">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <input type="submit" value="Envoyer">
-                                <input type="reset" value="Effacer">
-                            </td>
-                            <td></td>
-                        </tr>
+                    <tr>
+                        <td>
+                            <label for="pseudo">Pseudo</label>
+                        </td>
+                        <td>
+                            <input type="text" id="pseudo" required autofocus placeholder="Choisissez un pseudo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pwd">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="pwd" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="vehicule">Véhicule</label>
+                        </td>
+                        <td>
+                            <select id="vehicule">
+                                <option value="voiture">Voiture</option>
+                                <option value="motocycle">Motocycle</option>
+                                <option value="vélo">Vélo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Dites-nous en plus sur vous</label>
+                        </td>
+                        <td>
+                            <textarea name="message" id="message" placeholder="Nbre de caractères maximum"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sexe</td>
+                        <td>
+                            <input type="radio" id="femme" value="woman" name="gender">
+                            <label for="femme">femme</label>
+                            <input type="radio" id="homme" value="man" name="gender">
+                            <label for="homme">homme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sports pratiqués</td>
+                        <td>
+                            <input type="checkbox" id="danse">
+                            <label for="danse">Danse</label>
+                            <input type="checkbox" id="fitness">
+                            <label for="fitness">Fitness</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="file">Télécharger</label>
+                        </td>
+                        <td>
+                            <input type="file" id="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Envoyer">
+                            <input type="reset" value="Effacer">
+                        </td>
+                    </tr>
                 </table>
             </form>
     </div>

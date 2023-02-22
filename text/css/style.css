@@ -1,4 +1,6 @@
 body {
+    /* Couleur du texte */
+    color: #333;
     /* Police de caractères */
     font-family: Arial, Helvetica, sans-serif;
     /* Taille de la police */
@@ -12,6 +14,12 @@ body {
     /* center|left|right|justify */
 }
 
+li {
+    /* Supprimer les puces sur les listes */
+    list-style: none;
+    text-align: left;
+}
+
 p {
     /* Majuscule, minuscule */
     text-transform: uppercase;
@@ -23,6 +31,7 @@ a {
     text-decoration:none;
     /* underline (par défaut)|none */
     color: #cc2121;
+    font-size: 22px;
 }
 
 a:visited {
@@ -31,14 +40,12 @@ a:visited {
     }
 
 a:hover {
-    /* Pseudo-class :hover signifie au survol */
-    color: red;
-    font-size: 22px;
+    /* Pseudo-class :hover signifie au survol de la souris */
+    color: rgb(234, 101, 152);
+    
 }
 
-li {
-    list-style: none;
-}
+
 
 
 

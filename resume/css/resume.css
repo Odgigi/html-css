@@ -1,0 +1,9 @@
+td {
+    border: 1px solid black;
+    padding: 15px 50px;
+}
+
+/* L'image étant un élément inline - ou parce qu'elle est dans un <a> ?? on peut la centrer comme du texte */
+.marge {
+    text-align: center;
+}

@@ -26,11 +26,11 @@ a:hover {
 }
 
 header {
-    background-color: #0a2b19;
+    background-color: #2e8d59;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 65px;
+    min-height: 50px;
     padding: 0 80px;
 }
 header a {
@@ -39,13 +39,15 @@ header a {
 }
 
 .link-up {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     background-color: rgb(240, 63, 63);
-    color: #fff;
+    color: #333;
+    /* font-size: 8px; */
+    text-align: center;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     scroll-behavior: smooth;
     position:fixed;
     bottom: 20px;
@@ -53,9 +55,10 @@ header a {
 }
 
 .logo {
-    font-family: 'Nunito';
+    /* font-family: 'Nunito';
     font-weight: bold;
-    font-size: 35px;
+    font-size: 35px; */
+    align-self: center;
 }
 
 header nav {
@@ -92,7 +95,7 @@ header nav {
 }
 .hero a {
     color: #fff;
-    background-color: #0a2b19;
+    background-color: #2e8d59;
     padding: 10px 30px;
     border-radius: 5px;
 }
@@ -111,9 +114,6 @@ header nav {
 }
 
 @media (max-width: 520px) {
-    header {
-        /* background-color: red; */
-    }
     header nav {
         /* background-color: red; */
         flex-direction:column;
